@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Agenda Estudiante</string>
+    <string name="done_string">Done:</string>
+    <string name="priority_string">Priority:</string>
+    <string name="date_string">Date:</string>
+    <string name="add_new_todo_item_string">Añadir</string>
+    <string name="title_string">Nombre de la Asignatura</string>
+    <string name="Abre_string">Abreviatura Asignatura</string>
+    <string name="Teacher_string">Nombre del Profesor</string>
+    <string name="Email_string">Correo del Profesor</string>
+    <string name="status_string">Status</string>
+    <string name="not_done_string">Not Done</string>
+    <string name="priority_low_string">Low</string>
+    <string name="priority_medium_string">Medium</string>
+    <string name="priority_high_string">High</string>
+    <string name="time_and_date_string">Time and Date</string>
+    <string name="no_date_set_string">0000-00-00</string>
+    <string name="no_time_set_string">00:00:00</string>
+    <string name="choose_date_string">Choose Date</string>
+    <string name="choose_time_string">Choose Time</string>
+    <string name="cancel_string">Cancel</string>
+    <string name="reset_string">Reset</string>
+    <string name="submit_string">Submit</string>
+    <string name="enter_title_string">Por ejemplo: Física.</string>
+    <string name="enter_optional_string">Opcional</string>
+    <string name="title_activity_main">Agenda Estudiante</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="name_event">Nombre del Evento</string>
+    <string name="date_event">Fecha</string>
+    <string name="time_event">Tiempo</string>
+    <string name="decrip_event">Descripción</string>
+    <string name="photo_event">Foto</string>
+    <string name="rec_event">Recordatorio</string>
+    <string name="name_event_example">Evento 1</string>
+    <string name="description">Descripción</string>
+    <string name="text_descrip">Información relevante acerca del evento.</string>
+    <string name="button_camera">Foto</string>
+    <string name="button_rec">Recordatorio</string>
+    <string name="title_activity_add_evento">Añadir Evento</string>
+    <string name="title_activity_detail_evento">Detalles Evento</string>
+    <string name="title_activity_evento_list_adapter">EventoListAdapter</string>
+    <string name="title_activity_evento_item">EventoItem</string>
+    <string name="type_event_activity">Actividad</string>
+    <string name="type_event_exam">Prueba</string>
+    <string name="type_event_task">Trabajo/Tarea</string>
+    <string name="title_activity_manager_calificacion">Calificaciones de Materias</string>
+    <string name="title_activity_calificacion_list_adapter">CalificacionListAdapter</string>
+    <string name="title_activity_manager_dia">Dia</string>
+    <string name="title_activity_fragment_eliminar">FragmentEliminar</string>
+    <string name="title_activity_add_clasificacion">Añadir Calificacion</string>
+    <string name="clasification_name_text">Titulo de calificación</string>
+    <string name="enter_title_text">Por ejemplo: Parcial 1º</string>
+    <string name="calification_number">Calificacion</string>
+    <string name="weight_number">Peso</string>
+    <string name="title_activity_manager_calendario">Calendario</string>
+    <string name="title_activity_manager_horario">Horario</string>
+    <string name="title_activity_add_horario">Añadir Horario</string>
+    <string name="title_activity_lista_materias">Lista Materias</string>
+    <string name="title_activity_lista_dias">Lista Dias</string>
+    <string name="title_activity_detail_materia">DetailMateria</string>
+
+</resources>

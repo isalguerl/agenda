@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="course.labs.Agenda"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icono"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Materia.ManagerMateria"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Materia.AddMateria"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Materia.MateriaListAdapter"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Materia.DatabaseMateria"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Evento.ManagerEvento"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Evento.AddEvento"
+            android:label="@string/title_activity_add_evento" >
+        </activity>
+        <activity
+            android:name=".Evento.DetailEvento"
+            android:label="@string/title_activity_detail_evento" >
+        </activity>
+        <activity
+            android:name=".Evento.EventoListAdapter"
+            android:label="@string/title_activity_evento_list_adapter" >
+        </activity>
+        <activity
+            android:name=".Evento.EventoItem"
+            android:label="@string/title_activity_evento_item" >
+        </activity>
+        <activity
+            android:name=".Calificacion.TransicionCalificacion"
+            android:label="@string/title_activity_manager_calificacion" >
+        </activity>
+        <activity
+            android:name=".Calificacion.ManagerCalificacion"
+            android:label="@string/title_activity_manager_calificacion" >
+        </activity>
+        <activity
+            android:name=".Dia.ManagerDia"
+            android:label="@string/title_activity_manager_dia" >
+        </activity>
+        <activity
+            android:name=".Calificacion.AddCalificacion"
+            android:label="@string/title_activity_add_clasificacion" >
+        </activity>
+
+        <receiver
+            android:name=".Evento.OneShotAlarm"
+            android:process=":remote" />
+
+        <activity
+            android:name=".Horario.ManagerHorario"
+            android:label="@string/title_activity_manager_horario" >
+        </activity>
+        <activity
+            android:name=".Calendario.ManagerCalendario"
+            android:label="@string/title_activity_manager_calendario" >
+        </activity>
+        <activity
+            android:name=".Horario.AddHorario"
+            android:label="@string/title_activity_add_horario" >
+        </activity>
+        <activity
+            android:name=".Horario.ListaMaterias"
+            android:label="@string/title_activity_lista_materias" >
+        </activity>
+        <activity
+            android:name=".Horario.ListaDias"
+            android:label="@string/title_activity_lista_dias" >
+        </activity>
+        <activity
+            android:name=".Materia.DetailMateria"
+            android:label="@string/title_activity_detail_materia" >
+        </activity>
+    </application>
+
+</manifest>
